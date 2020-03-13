@@ -11,13 +11,19 @@
 .info-author {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .img-author img {
   width: 52px;
   height: 52px;
   border-radius: 16px;
+}
 
+.div-author-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .author {
