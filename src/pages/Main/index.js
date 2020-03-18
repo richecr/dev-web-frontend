@@ -19,12 +19,13 @@ export default function Main() {
       neighborhood: 'Bodocongo',
       price: 1000,
     },
-    { 
+    {
       name: 'Igor',
       email: 'igor@silveira.com',
       ranking: 5,
       rating: 10,
-      url_foto: 'https://avatars3.githubusercontent.com/u/39952041?s=460&u=e16c50c262713bef1abcecd1a9a7747dd5f0ff49&v=4',
+      url_foto:
+        'https://avatars3.githubusercontent.com/u/39952041?s=460&u=e16c50c262713bef1abcecd1a9a7747dd5f0ff49&v=4',
       occupation: 'Programador',
       state: 'Pernambuco',
       city: 'Recife',
