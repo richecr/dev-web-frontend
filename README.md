@@ -1,7 +1,7 @@
 # Dev-Web - FrontEnd
-> Repositório para o código do frontend da aplicação a ser desenvolvida na disciplina de Princípios de Desenvolvimento Web.
+Repositório para o código do frontend da aplicação a ser desenvolvida na disciplina de Princípios de Desenvolvimento Web.
 
-**Obs: Falta um nome para a aplicação**
+- [API REST - Backend](https://github.com/Rickecr/dev-web-backend)
 
 ## Sobre a aplicação:
 
@@ -13,3 +13,5 @@ E outros usuários podem buscar por ele e contratar seus serviços.
 Um usuário poderá avaliar o outro sobre seu serviço. Assim o sistema terá um ranking dos melhores serviços por cada categoria.
 
 Usuário pode prestar serviços e também consumir serviços de outros usuários.
+
+**Obs: Falta um nome para a aplicação**
