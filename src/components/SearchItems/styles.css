@@ -1,0 +1,9 @@
+.div-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-search input {
+  margin-top: 8px;
+}

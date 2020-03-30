@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
-import ServiceItem from '../../components/ServiceItem';
+import ServicesList from '../../components/ServicesList';
+import SearchItems from '../../components/SearchItems';
 
 import './index.css';
 
@@ -85,11 +86,12 @@ export default function Main() {
     },
   ]);
 
+  const [searchText, setSearchText] = useState('');
+
   return (
-    <div className="div-items">
-      {services.map(item => (
-        <ServiceItem key={item.name} item={item} />
-      ))}
+    <div>
+      <SearchItems onChangeText={setSearchText} value={searchText} />
+      <ServicesList className="div-items" services={services} />
     </div>
   );
 }

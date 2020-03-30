@@ -2,14 +2,14 @@ import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Main from './pages/Main';
-import Service from './pages/Service';
+import Profile from './pages/Profile';
 
 export default function routes() {
   return (
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={Main} />
-        <Route path="/services/:service" component={Service} />
+        <Route path="/profile/:service" component={Profile} />
       </Switch>
     </BrowserRouter>
   );

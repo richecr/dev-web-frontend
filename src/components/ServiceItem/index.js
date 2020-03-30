@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 import './index.css';
 
 export default function ServiceItem({ item }) {
@@ -25,7 +27,9 @@ export default function ServiceItem({ item }) {
       </div>
 
       <div>
-        <button>Ver perfil</button>
+        <Link className="back-link" to={`/profile/${item.email}`}>
+          Ver perfil
+        </Link>
       </div>
     </div>
   );
