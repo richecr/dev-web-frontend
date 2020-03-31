@@ -2,8 +2,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.div-search input {
-  margin-top: 8px;
+.MuiFormControl-root {
+  width: 650px;
 }
