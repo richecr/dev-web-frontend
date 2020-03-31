@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 
-import './index.css';
+import './styles.css';
 
 export default function ServiceItem({ item }) {
   return (

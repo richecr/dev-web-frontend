@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import ServicesList from '../../components/ServicesList';
 import SearchItems from '../../components/SearchItems';
 
-import './index.css';
+import './styles.css';
 
 export default function Main() {
   const [services, setServices] = useState([
